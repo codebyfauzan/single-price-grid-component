@@ -6,7 +6,7 @@
 
 body {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     font-family: 'Karla', sans-serif;
     display: flex;
     flex-direction: column;
@@ -14,6 +14,7 @@ body {
     justify-content: center;
     font-size: 16px;
     background-color: #E6EFF6;
+    position: relative;
 }
 
 /* Single Price Container */
