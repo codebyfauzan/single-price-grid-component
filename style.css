@@ -45,11 +45,13 @@ body {
 .join h3 {
     color: hsl(179, 62%, 43%);
     margin-bottom: 1rem;
+    font-size: 1.5rem;
 }
 
 .join h4 {
     color: hsl(71, 73%, 54%);
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .join p {
@@ -75,6 +77,7 @@ body {
 
 .monthly-subs h4 {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
 .monthly-subs p span {
@@ -116,11 +119,28 @@ body {
 
 .why-us h4 {
     margin-bottom: 1rem;
+    font-size: 1.2rem;
 }
 
-.why-us p {
-    line-height: 1.5rem;
+.why-us ul {
+    line-height: 1.4rem;
     font-size: 0.9rem;
+    list-style: none;
+}
+
+/* Footer */
+footer {
+    position: absolute;
+    bottom: 0;
+}
+
+.attribution {
+    font-size: 11px;
+    text-align: center;
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
 }
 
 /* Responsive settings */
